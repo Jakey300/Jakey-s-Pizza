@@ -1,0 +1,146 @@
+<html>
+  
+  <link rel = "stylesheet" href="pizcss.css"/>
+
+<head>
+
+
+
+<script>
+
+function checkForm() {
+	var x = document.forms["myForm"]["fname"].value;
+	var y = document.forms["myForm"]["lname"].value;
+	var z = document.forms["myForm"]["address"].value;
+	var a = document.forms["myForm"]["ccnum"].value;
+	var b = document.forms["myForm"]["ccv"].value;
+
+if (x == "" || y == "" || z =="" || a == "" || b == "")
+	{ alert ("You have a blank field");
+	return false;
+	}
+	}
+
+</script>
+
+</head>
+
+  <body>
+    <div id="wrapper">
+<header>
+
+<img src="https://jakesplatform.info/pizza/images/jpizzalogo.png"/>
+
+</header>
+
+
+  
+
+
+
+<form name = "myForm" action="http://webdevbasics.net/scripts/demo.php"
+onsubmit="return checkForm()" method="post">
+
+<div class="checkbox-wrapper">
+<h1>
+  <strong>
+<br>
+<input type="checkbox" id = "cpizza"/>
+
+Cheese  <label for = "cpizza">$9.99
+<img src="https://jakesplatform.info/pizza/images/cpizza.jpg"/>
+
+</label></br>
+
+<br>
+<input type="checkbox" id = "ppizza"/>
+
+Pepperoni <label for = "ppizza">$10.99
+<img src="https://jakesplatform.info/pizza/images/ppizza.jpg"/>
+
+</label></br>
+
+<br>
+<input type="checkbox" id = "spizza"/>
+
+Sausage <label for = "spizza">$11.99
+<img src="https://jakesplatform.info/pizza/images/spizza.jpg"/>
+
+</label></br>
+
+<br>
+<input type="checkbox" id = "vpizza"/>
+
+Veggie  <label for = "vpizza">$12.99
+<img src="https://jakesplatform.info/pizza/images/vpizza.jpg"/>
+
+</label></br>
+
+<br>
+<input type="checkbox" id = "mpizza"/>
+
+Meatlovers <label for = "mpizza">$15.99
+<img src="https://jakesplatform.info/pizza/images/mpizza.jpg"/>
+
+</label></br>
+
+
+<p>
+
+First Name: <input type= "text" name = "fname">
+
+<p>
+
+Last Name: <input type= "text" name = "lname"></p>
+
+<p>
+
+Address: <input type= "text" name = "address"></p>
+
+<p>
+
+Card Number: <input type= "text" name = "ccnum"></P>
+
+<p>
+Card Verification: <input type= "text" name = "ccv"></P>
+<p>
+
+
+</div>
+
+<p>
+
+<input type="submit" value = "Submit My Order"
+
+</p>
+
+
+
+
+
+
+</form>
+
+
+
+<main>
+
+
+
+
+</main>
+
+
+<footer>
+
+ 
+
+</footer>
+
+
+</div>
+</body>
+
+</html>
+
+

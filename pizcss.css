@@ -1,0 +1,21 @@
+
+
+
+
+body {
+  margin: 0;
+    background-image: url("https://jakesplatform.info/pizza/images/jalapeno.jpg"   ) ;
+    color: orange   ;
+    
+}
+
+#wrapper {
+    width: 300px;
+    margin: 0 auto;
+    }
+
+img{
+    width: 300px;
+    height: 250px;
+}
+
