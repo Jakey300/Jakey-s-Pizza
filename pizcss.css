@@ -1,11 +1,6 @@
-
-
-
-
 body {
-  margin: 0;
-    color: orange   ;
-    
+    margin: 0;
+    color: magenta;    
 }
 
 #wrapper {
@@ -14,9 +9,9 @@ body {
     z-index: 2;
     background-color: rgba(0,22,0,0.6);
     position: relative;
-    }
+}
 
-img{
+img {
     width: 300px;
     height: 250px;
 }
