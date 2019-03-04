@@ -18,7 +18,7 @@ img{
     height: 250px;
 }
 
-.back-img {
+#back-img {
     background-image: url("https://jakesplatform.info/pizza/images/jalapeno.jpg");
     width: 100%;
     height:200%;
